@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #fbfbfb;
+}
+
+div {
+
+}
+
+.container {
+  height: 100vh;
+}
+
+@media only screen and (min-width: 814px) {
+  .container {
+    display: flex;
+  }
+}

@@ -1,0 +1,42 @@
+.projectCard {
+  color: #889bad;
+  font-weight: bold;
+
+
+}
+
+.projectImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.projectBody {
+  
+}
+
+.projectTitle {
+  margin: 0;
+}
+
+
+@media only screen and (min-width: 814px) {
+  .projectCard {
+    color: #889bad;
+    font-weight: bold;
+    width: 30%;
+    height: 35%;
+    margin-bottom: 5px;
+  }
+  .projectImage {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .projectBody {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem;
+
+  }
+
+}

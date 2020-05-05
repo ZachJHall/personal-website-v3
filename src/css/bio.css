@@ -1,0 +1,67 @@
+
+.bio-menu {
+  height: 50%;
+  width: 100%;
+  background-image: linear-gradient(45deg, #36D1DC, #5B86E5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.bio-menu-info{
+  margin: inherit;
+  padding: inherit;
+  width: 100%;
+  z-index: 1;
+}
+
+.bio-menu-info-name{
+  margin: inherit;
+  padding: inherit;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 7px;
+}
+
+.bio-menu-info h1{
+  color: rgb(255, 255, 255);
+  margin: inherit;
+  padding: inherit;
+}
+
+.bio-menu-info-resume{
+  margin: inherit;
+  padding: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+.bio-menu-info-resume button{
+  background-color: Transparent;
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+  border: 2px solid rgb(255, 255, 255);
+  transition-duration: 0.5s;
+  margin-bottom: 20px;
+}
+
+.bio-menu-info-resume button:hover{
+  background-color: rgb(255, 255, 255);
+  color: #48ACE0;
+}
+
+.bio-menu-info-contact{
+  margin: inherit;
+  padding: inherit;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (min-width: 814px) {
+  .bio-menu {
+    width: 30%;
+    height: 100%;
+  }
+}

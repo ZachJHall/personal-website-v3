@@ -1,0 +1,11 @@
+.contact-links {
+  padding-top: 9px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 40%;
+}
+
+.contact-links a{
+  padding-left: 4px;
+  padding-right: 4px;
+}

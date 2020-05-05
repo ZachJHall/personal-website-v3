@@ -1,0 +1,41 @@
+.project-menu *{
+
+}
+
+.project-menu{
+  height: 50%;
+  background-color: #fbfbfb;
+  color:#43b6e0;
+  text-align: center;
+
+
+
+}
+
+
+
+
+.project-menu-content  {
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    width: 50%;
+    margin: 0 auto;
+
+  }
+
+
+
+
+@media only screen and (min-width: 814px) {
+  .project-menu {
+    width: 70%;
+    height: 100%;
+  }
+  .project-menu-content{
+    width: 100%;
+  }
+
+
+}
