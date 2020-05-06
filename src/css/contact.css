@@ -3,9 +3,16 @@
   display: flex;
   justify-content: space-around;
   max-width: 40%;
+  margin-bottom: 10px;
 }
 
 .contact-links a{
   padding-left: 4px;
   padding-right: 4px;
+}
+
+@media only screen and (min-width: 814px) {
+  .contact-links {
+    margin-bottom: 0;
+  }
 }
